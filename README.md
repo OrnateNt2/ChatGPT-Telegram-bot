@@ -1,40 +1,33 @@
-# ChatGPT-Telegram-bot
-Python API client for ChatGPT: Connects to OpenAI's neural network API, enabling text generation, image processing, and audio message handling. Easy integration for AI-driven projects.
+# ChatGPT Telegram Bot
 
-ChatGPT Telegram Bot
+Welcome to the ChatGPT Telegram Bot repository! This project provides a Telegram bot powered by OpenAI's ChatGPT neural network API. Engage in interactive conversations, generate text responses, process images, and handle audio messages seamlessly.
 
-Welcome to the ChatGPT Telegram Bot repository! This project provides a Telegram bot powered by OpenAI's ChatGPT neural network API. With this bot, users can engage in interactive conversations, generate text responses, process images, and handle audio messages seamlessly.
+## Key Features:
 
-Key Features:
+1. **Text Generation:** Initiate conversations and receive contextually relevant responses.
+2. **Image Processing:** Generate images based on provided prompts using the `/image` command.
+3. **Audio Message Handling:** Convert audio messages to text responses for seamless communication.
+4. **Clear Chat History:** Start fresh conversations by clearing chat history with the `/new` command.
 
-Text Generation: Users can initiate conversations by sending text messages to the bot. The bot utilizes the ChatGPT model to generate contextually relevant responses, creating a conversational experience.
+## Getting Started:
 
-Image Processing: By using the /image command followed by a prompt, users can request the bot to generate images based on the provided input. The bot leverages advanced image generation capabilities to produce visually appealing outputs.
+1. **Clone the Repository:** `git clone [repository_url]`
+2. **Install Dependencies:** `pip install -r requirements.txt`
+3. **Configure Environment Variables:** Set up environment variables.
+4. **Deploy API Gateway:** Enable communication between the bot and Telegram.
+5. **Integration:** Add the bot to your Telegram chat or group.
+6. **Start Chatting:** Begin chatting with the bot!
 
-Audio Message Handling: The bot supports the processing of audio messages. Users can send audio messages, and the bot converts them into text responses using the ChatGPT model, enabling seamless communication.
+## Contributions:
 
-Clear Chat History: Users can clear the chat history by sending the /new command, ensuring privacy and starting fresh conversations.
+Contributions welcome! Submit pull requests to enhance features, add functionalities, or fix bugs.
 
-Getting Started:
+## License:
 
-To get started with the ChatGPT Telegram Bot, follow these steps:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Clone the Repository: Clone this repository to your local machine.
-Install Dependencies: Install the required dependencies listed in the requirements.txt file.
-Configure Environment Variables: Set up the necessary environment variables, including TG_BOT_TOKEN, TG_BOT_CHATS, PROXY_API_KEY, YANDEX_KEY_ID, YANDEX_KEY_SECRET, and YANDEX_BUCKET.
-Deploy API Gateway: Deploy the provided API Gateway configuration to enable communication between the bot and the Telegram platform.
-Integration: Integrate the bot with your Telegram account by adding it to your desired chat or group.
-Start Chatting: Begin chatting with the bot! Explore its capabilities by sending text messages, image prompts, or audio messages.
-Contributions:
+## Disclaimer:
 
-Contributions to this project are welcome! Whether you'd like to enhance existing features, add new functionalities, or fix bugs, feel free to submit pull requests. Together, we can improve and expand the capabilities of the ChatGPT Telegram Bot.
-
-License:
-
-This project is licensed under the MIT License, allowing for flexibility in usage and modification. See the LICENSE file for more details.
-
-Disclaimer:
-
-Please note that this bot is intended for demonstration and educational purposes only. Use it responsibly and adhere to ethical guidelines when engaging in conversations.
+For demonstration and educational purposes only. Use responsibly and adhere to ethical guidelines.
 
 Start your conversational journey with the ChatGPT Telegram Bot today and experience the power of AI-driven interactions!

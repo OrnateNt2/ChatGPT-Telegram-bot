@@ -12,7 +12,7 @@ Welcome to the ChatGPT Telegram Bot repository! This project provides a Telegram
 ## Getting Started:
 
 1. **Clone the Repository:** `git clone [repository_url]`
-2. **Install Dependencies:** `pip install -r requirements.txt`
+2. **Install Dependencies:** None required. There are no dependencies to install.
 3. **Configure Environment Variables:** Set up environment variables.
 4. **Deploy API Gateway:** Enable communication between the bot and Telegram.
 5. **Integration:** Add the bot to your Telegram chat or group.

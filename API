@@ -2,12 +2,10 @@ openapi: 3.0.0
 info:
   title: Sample API
   version: 1.0.0
-servers:
-- url: https://d5dfu48a8je8gl7omeua.apigw.yandexcloud.net
 paths:
   /:
     post:
       x-yc-apigateway-integration:
         type: cloud-functions
-        function_id: <function_id>
-        service_account_id: <service_account_id>
+        function_id: <FUNCTION-ID>
+        service_account_id: <SERVICE-ACCOUNT-ID>
